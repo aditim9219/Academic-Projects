@@ -345,64 +345,17 @@ This project demonstrates SQL skills across multiple levels.
 
 ## Project Files
 
-### `IMDB+question - Final.sql`
+### `IMDB+question.sql`
 
 The main SQL solution file containing the assignment questions, SQL queries, comments, intermediate findings, and final analytical queries.
 
-### `IMDB+dataset+import.sql`
-
-SQL script used to create the `imdb` database, create the required tables, and populate the database with the movie dataset.
-
-### `IMDb+movies+Data+and+ERD+final.xlsx`
+### `IMDb+movies+Data+and+ERD.xlsx`
 
 Excel workbook containing the dataset tables and ERD used to understand the database structure and table relationships.
-
-### `Project 2.pdf`
-
-Original academic project/problem statement describing the business scenario, analytical requirements, database setup, and submission requirements.
 
 ### `Executive Summary and Recommendations.pdf`
 
 Executive summary documenting the major insights and recommendations derived from the SQL analysis.
-
----
-
-## How to Run the Project
-
-### Prerequisites
-
-- MySQL Server
-- MySQL Workbench or another MySQL-compatible SQL client
-
-### Step 1 — Create the Database
-
-Run:
-
-```sql
-IMDB+dataset+import.sql
-```
-
-This script:
-
-1. Creates the `imdb` database.
-2. Creates the required tables.
-3. Inserts the dataset into the tables.
-
-### Step 2 — Select the Database
-
-```sql
-USE imdb;
-```
-
-### Step 3 — Run the Analysis
-
-Open:
-
-```text
-IMDB+question - Final.sql
-```
-
-The file contains the questions followed by the SQL solutions used for the analysis.
 
 ---
 
