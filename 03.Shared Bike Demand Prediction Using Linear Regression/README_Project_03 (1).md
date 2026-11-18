@@ -83,16 +83,6 @@ The target is:
 ``` text
 cnt = casual + registered
 ```
-
-### Dataset Availability
-
-The original `day.csv` dataset used for this project is not currently
-included in the repository.
-
-The notebook contains the original analysis and model-building workflow.
-To reproduce it, the dataset must be obtained separately and the
-data-loading path updated.
-
 ------------------------------------------------------------------------
 
 ## Analysis Workflow
@@ -174,7 +164,7 @@ because these variables directly contribute to the target:
 cnt = casual + registered
 ```
 
-Therefore, these variables require careful consideration when
+These variables require careful consideration when
 interpreting a predictive model.
 
 ------------------------------------------------------------------------
@@ -373,12 +363,6 @@ The main Jupyter Notebook containing:
 -   Assumption checking
 -   Final model interpretation
 
-### `Problem Statement(1).pdf`
-
-The original academic problem statement describing the shared-bike
-demand prediction task, dataset characteristics, modelling requirements,
-and evaluation criteria.
-
 ### `Linear Regression Assignment Questions.pdf`
 
 The completed subjective-question component covering:
@@ -396,17 +380,12 @@ The completed subjective-question component covering:
 
 ## Limitations
 
-This project is an **academic regression case study** and should not be
-considered a production demand forecasting system.
+This project is an **academic regression case study**.
 
 The model uses historical daily observations and a limited feature set.
 Real-world demand forecasting would typically incorporate additional
 information such as location-level demand, pricing, availability,
 events, traffic, holidays, weather forecasts, and operational factors.
-
-The original dataset is not included in this repository, so the notebook
-cannot currently be reproduced end-to-end without obtaining the dataset
-separately.
 
 ------------------------------------------------------------------------
 
