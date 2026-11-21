@@ -62,7 +62,7 @@ technical and business results.
 The project uses a historical lead dataset referred to as `Leads.csv`.
 
 The notebook shows the following dataset progression:
-
+``` text
   -----------------------------------------------------------------------
   Stage                                                             Shape
   ------------------------------ ----------------------------------------
@@ -83,7 +83,7 @@ The notebook shows the following dataset progression:
 
   Test set                                                     2,772 × 80
   -----------------------------------------------------------------------
-
+```
 The target variable is `Converted`.
 
 -   `0` = lead was not converted
@@ -253,7 +253,7 @@ The final model was built using `statsmodels` GLM with:
 -   **Pseudo R-squared (CS):** approximately 0.6105
 
 The final model variables were:
-
+``` text
   Variable                                                   Coefficient
   -------------------------------------------------------- -------------
   `Total Time Spent on Website`                                   0.9371
@@ -268,7 +268,7 @@ The final model variables were:
   `What is your current occupation_Other`                        -3.7292
   `What is your current occupation_Working Professional`          1.2544
   `Last Notable Activity_Modified`                               -1.3787
-
+```
 The final model equation is documented in the project summary and
 subjective-question file. The three largest positive coefficients are
 `Tags_Lost to EINS`, `Tags_Closed by Horizzon`, and
@@ -290,7 +290,7 @@ was:
 ```
 
 The corresponding metrics were:
-
+``` text
   Metric                        Result
   --------------------------- --------
   Accuracy                      92.89%
@@ -298,7 +298,7 @@ The corresponding metrics were:
   Specificity                   93.50%
   Precision / PPV               91.79%
   Negative Predictive Value     94.61%
-
+``` 
 The presentation reports these evaluation results and explains
 sensitivity as the ability to identify converted leads and specificity
 as the ability to identify leads that are unlikely to convert.
@@ -336,12 +336,13 @@ The final model was applied to the held-out test set.
 The project reports the following test-set results using the final
 classification procedure documented in the notebook/presentation:
 
+``` text
   Metric                   Test Result
   ---------------------- -------------
   Accuracy                      91.85%
   Sensitivity / Recall          96.07%
   Specificity                   89.09%
-
+```
 The test confusion matrix in the notebook is:
 
 ``` text
